@@ -31,6 +31,8 @@ Basta abrir as solutions dos projetos no VS2017 e executar as mesmas.
 Após estes processos agora basta acessar o endereço local `http://localhost:5001` que a SPA estará rodando,  <br />
 posteriormente acessando a porta 5002 é possivel ver o Swagger da aplicação `LiveWeather`.
 
+###### Note: após a primeira busca, à página deve atualizar a cada 15 minutos, retornando novas informações.
+
 Swagger LiveWeather API
 
 ```
