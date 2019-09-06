@@ -101,7 +101,9 @@ export class FetchData extends Component {
   };
 
   handleSetUnit = unitCurrent => {
-    this.setState({ unit: unitCurrent });
+    this.setState({ unit: unitCurrent }, () => {
+      this.fetchWeatherForecast();
+    });
   };
 
   render() {
