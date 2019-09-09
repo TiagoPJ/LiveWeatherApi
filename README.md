@@ -14,6 +14,12 @@ Esta API possuí 2 endpoint's:
 ### WebSite
 
 Esta SPA simples é um extra feita em React aonde a mesma consome a API LiveWeather para retorno das informações na tela.
+Na pasta raiz do projeto `./LiveWeatherApi/WebSite` no terminal, com node.js instalado na máquina executar os comandos abaixo:
+
+###### npm i install
+###### npm i axios
+###### npm i moment
+###### npm i react-flatpickr
 
 ## Como rodar
 
