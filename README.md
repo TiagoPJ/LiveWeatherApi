@@ -16,10 +16,7 @@ Esta API possuí 2 endpoint's:
 Esta SPA simples é um extra feita em React aonde a mesma consome a API LiveWeather para retorno das informações na tela.
 Na pasta raiz do projeto `./LiveWeatherApi/WebSite` no terminal, com node.js instalado na máquina executar os comandos abaixo:
 
-###### npm i install
-###### npm i axios
-###### npm i moment
-###### npm i react-flatpickr
+###### npm install
 
 ## Como rodar
 
@@ -29,16 +26,6 @@ Basta abrir um terminal para cada projeto listado abaixo e executar os comandos:
 
 ###### `./LiveWeatherApi/WebSite`
 ###### `./LiveWeatherApi/LiveWeather/Api`
-
-### DOCKER (For Windows) - Extra Container
-
-Docker no windows não exporta containers, portanto foi criada a imagem do projeto `LiveWeather` que consta no link abaixo, realizar o download, descompactar e importar a imagem normalmente no docker, após este processo criar um container apontando para esta imagem descompacatada.
-
-Ex.: `docker run -it -d -p 5002:80 --rm --name liveweather-container liveweather-image`
-
-O comando acima cria um container que roda em segundo plano com a imagem importada anteriormente.
-
-###### https://drive.google.com/open?id=1TFC39enth_v48ruvwgnrNUC3DHi05R4B
 
 ### IISExpress (Caso tenha problema com o dotnet run)
 
